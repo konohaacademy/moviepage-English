@@ -395,7 +395,7 @@ p.movie-title {
 }
 
 .header > #nav-drawer > #nav-open > span:after {
-  bottom: -16px;
+  bottom: 9px;
 }
 
 .header > #nav-drawer > #nav-open > span,
@@ -420,7 +420,7 @@ p.movie-title {
 }
 
 .header > #nav-drawer > #nav-open > span:after {
-  bottom: 13px;
+  bottom: 9px;
 }
 
 .header > #nav-drawer > #nav-close {
@@ -571,6 +571,11 @@ p.movie-title {
 
 .movie-container {
   text-align: center;
+}
+
+.movie-container iframe {
+  max-width: 100%;
+  height: 315px;
 }
 
 .video-container {
