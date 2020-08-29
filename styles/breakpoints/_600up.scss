@@ -1,0 +1,88 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+
+#content {
+  > .grade {
+    > .publish {
+      > .bg-white {
+        margin: 1em 15%;
+      }
+    }
+  }
+}
+
+.header {
+  > #nav-drawer > #nav-open {
+    width: 50px;
+
+    & > span,
+    span:before,
+    span:after {
+      /*ハンバーガーアイコンをCSSだけで表現*/
+
+      width: 45px; /*長さ*/
+    }
+  }
+  &__ul {
+    padding: 0 30px;
+  }
+
+  &__li {
+    margin-left: 30px;
+
+    & > a.btn-gradient-radius {
+      font-size: 18px !important;
+      padding: 7px 25px !important;
+    }
+  }
+}
+// .flex {
+//     flex-direction: row;
+//     flex-wrap: wrap;
+// }
+
+// .houses {
+//     &__item {
+//         flex-basis: 50%;
+//         margin-bottom: 60px;
+//     }
+// }
+
+// .popular {
+//     &__container {
+//         justify-content: space-between;
+//     }
+
+//     &__item {
+//         flex-basis: 47%;
+//     }
+// }
+
+// .travel {
+//     &__inner {
+//         padding: 50px;
+//     }
+//     &__texts,
+//     &__img {
+//         flex-basis: 47%;
+//     }
+
+//     &__texts {
+//         display: flex;
+//         align-items: flex-end;
+//     }
+// }
+
+// .footer {
+//     & .logo {
+//         justify-content: flex-start;
+//     }
+
+//     &__li {
+//         margin-left: 0;
+//         margin-right: 30px;
+//     }
+// }
