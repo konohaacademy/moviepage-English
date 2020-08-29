@@ -575,7 +575,7 @@ p.movie-title {
 
 .movie-container iframe {
   max-width: 100%;
-  height: 315px;
+  height: 180px;
 }
 
 .video-container {
@@ -685,6 +685,9 @@ p.movie-title {
 Stylesheet: 480px以上(スマホの横向き)のモニタで適用
 
 ******************************************************************/
+  .movie-container iframe {
+    height: 280px;
+  }
 }
 
 @media (min-width: 600px) {
@@ -695,6 +698,9 @@ Stylesheet: 600px以上のタブレットやモニタで適用
 ******************************************************************/
   #content > .grade > .publish > .bg-white {
     margin: 1em 15%;
+  }
+  .movie-container iframe {
+    height: 315px;
   }
   .header > #nav-drawer > #nav-open {
     width: 50px;
