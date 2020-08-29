@@ -179,7 +179,7 @@ p.movie-title {
         bottom: -9px;
       }
       & > span:after {
-        bottom: -16px;
+        bottom: -9px;
       }
 
       & > span,
@@ -324,6 +324,11 @@ p.movie-title {
 
 .movie-container {
   text-align: center;
+
+  　& > iframe {
+    max-width: 100%;
+    height: auto;
+  }
 }
 
 .video-container {
