@@ -751,6 +751,10 @@ Stylesheet: 960px以上のモニタで適用
   #content > .grade > .publish > .bg-white {
     margin: 1em 20%;
   }
+  #global-container {
+    width: 80%;
+    margin: 0 auto;
+  }
 }
 
 @media (min-width: 1280px) {
